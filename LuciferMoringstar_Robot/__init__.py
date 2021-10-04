@@ -27,7 +27,7 @@ HELP = """
   /logger  Get Logs
   /delete Delete File From Database
 
-<b>[Join FLIX GROUP For More Movies & Series](https://t.me/flix_corner)
+<b>[Join FLIX GROUP For More Movies & Series](https://t.me/flix_corner)</b>
 
 @flix_updates
 """
