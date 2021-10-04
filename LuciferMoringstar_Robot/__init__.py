@@ -27,15 +27,15 @@ HELP = """
   /logger  Get Logs
   /delete Delete File From Database
 
-[➡️How To Add Old Files For database](https://youtu.be/mtu5hgW-l_o)
+<b>[Join FLIX GROUP For More Movies & Series]</b>(https://t.me/flix_corner)
 
-@Mo_Tech_YT
+@flix_updates
 """
 
 ABOUT = """
 ➥ Name : Auto Filter With IMDB
     
-➥ Creator : [Muhammed RK](t.me/Mrk_YT)
+➥ Creator : [Anderson](t.me/Anderson_Johny)
 
 ➥ Language : Python3
 
