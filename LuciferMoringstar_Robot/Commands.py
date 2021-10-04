@@ -119,7 +119,8 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [[
                 InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("More Botz", url="https://t.me/Flix_Updates")
+                InlineKeyboardButton("➕ ADD ME TO YOUR GROUP➕", url="https://t.me/Flixautofilter1_bot?startgroup=true"), 
+                InlineKeyboardButton("UPDATES Channel", url="https://t.me/Flix_updates")    
                 ],[
                 InlineKeyboardButton("Help", callback_data="help"),
                 InlineKeyboardButton("About", callback_data="about")
