@@ -124,6 +124,12 @@ async def start(bot, message):
                 InlineKeyboardButton("➕ ADD ME TO YOUR GROUP➕", url="https://t.me/Flixautofilter1_bot?startgroup=true"), 
                     
                 ],[
+
+                InlineKeyboardButton("🔥 DEV 🔥", url="https://t.me/Anderson_Johny"), 
+
+                    
+
+                ],[
                 InlineKeyboardButton("Channels", url="https://t.me/Flix_Corner"),
                 InlineKeyboardButton("About", callback_data="about")
                 ]]
