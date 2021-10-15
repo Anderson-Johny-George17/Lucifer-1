@@ -73,7 +73,7 @@ async def filter(client, message):
             btns = list(split_list(btn, 10)) 
             keyword = f"{message.chat.id}-{message.message_id}"
             BUTTONS[keyword] = f"{file_size}{file_name}"
-                "total" : len(btns),
+                "total" : 2(btns),
                 "buttons" : btns
             }
         else:
