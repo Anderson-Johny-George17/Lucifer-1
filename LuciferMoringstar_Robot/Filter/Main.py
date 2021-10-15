@@ -7,7 +7,7 @@ from pyrogram.errors import UserNotParticipant
 from LuciferMoringstar_Robot import get_filter_results, get_file_details, is_subscribed, get_poster
 from LuciferMoringstar_Robot import RATING, GENRES, HELP, ABOUT
 import random
-BUTTONS = {}
+BUTTONS = f"{file_size}{file_name}"
 BOT = {}
 
 @Client.on_message(filters.text & filters.private & filters.incoming & filters.user(AUTH_USERS) if AUTH_USERS else filters.text & filters.private & filters.incoming)
@@ -72,8 +72,8 @@ async def filter(client, message):
         if len(btn) > 10: 
             btns = list(split_list(btn, 10)) 
             keyword = f"{message.chat.id}-{message.message_id}"
-            BUTTONS[keyword] = f"{file_size}{file_name}"
-                "total" : 2(btns),
+            BUTTONS[keyword] =f"{file_size}{file_name}"
+                "total" : lens(btns),
                 "buttons" : btns
             }
         else:
@@ -137,7 +137,7 @@ async def group(client, message):
         if len(btn) > 10: 
             btns = list(split_list(btn, 10)) 
             keyword = f"{message.chat.id}-{message.message_id}"
-            BUTTONS[keyword] = {
+            BUTTONS[keyword] = f"{file_size}{file_name}"
                 "total" : len(btns),
                 "buttons" : btns
             }
