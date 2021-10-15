@@ -58,7 +58,7 @@ async def filter(client, message):
         if files:
             for file in files:
                 file_id = file.file_id
-                filename = f"{file_size}{file_name}"
+                filename = f"[{get_size(file.file_size)}] {file.file_name}"
                 btn.append(
                     [InlineKeyboardButton(text=f"{filename}",callback_data=f"pr0fess0r_99#{file_id}")]
                     )
@@ -72,7 +72,7 @@ async def filter(client, message):
         if len(btn) > 10: 
             btns = list(split_list(btn, 10)) 
             keyword = f"{message.chat.id}-{message.message_id}"
-            BUTTONS[keyword] = {
+            BUTTONS[keyword] = f"{file_size}{file_name}"
                 "total" : len(btns),
                 "buttons" : btns
             }
